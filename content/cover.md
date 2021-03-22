@@ -28,4 +28,4 @@ image: figures/00094701-sm.jpg
 
 - In the [figure shortcodes](/intro/), IIIF is not being delployed at all. The figure modal zoom containters are only displaying the static `src` JPGs defined for each image in `figures.yml`.
 
-- And what about those static JPGs? Should Quire users continue including them to use for things like the [contents image grids](/catalogue/), and the PDF and e-book outputs? Or, is it possible to employ IIIF for these things too?
+- And what about those static JPGs? Should Quire users continue including them to use for things like the [contents image grids](/catalogue/), the PDF and e-book outputs, and for images with `download: true`? Or, is it possible to employ IIIF for these things too?

@@ -5,6 +5,7 @@ figure_list:
     iiif: "/img/iiif/processed/00094701/info.json"
     caption: "*Irises*, Vincent van Gogh, 1889. J. Paul Getty Museum."
     credit: ""
+    download: true
 
   - id: "vase-of-flowers"
     src: figures/00081701-bw.jpg
@@ -12,6 +13,7 @@ figure_list:
     iiif: "/img/iiif/processed/00081701/info.json"
     caption: "*Vase of Flowers*, Jan van Huysum, 1722. J. Paul Getty Museum."
     credit: ""
+    download: true
 
   - id: "flowers"
     src: figures/05045001-bw.jpg
@@ -19,6 +21,7 @@ figure_list:
     iiif: "/img/iiif/processed/05045001/info.json"
     caption: "[Flowers], Adolphe Braun, about 1868. J. Paul Getty Museum."
     credit: ""
+    download: true
 
   - id: "flowers-and-beetles"
     src: figures/00022601-bw.jpg
@@ -26,6 +29,7 @@ figure_list:
     iiif: "/img/iiif/processed/00022601/info.json"
     caption: "*Flowers and Beetles*, Hans Hoffmann, 1582. J. Paul Getty Museum."
     credit: ""
+    download: true
 
   - id: "still-life"
     src: figures/04634601-bw.jpg
@@ -33,6 +37,7 @@ figure_list:
     iiif: "/img/iiif/processed/04634601/info.json"
     caption: "[Still life of flowers and ferns], Lumière Brothers, about 1898. J. Paul Getty Museum."
     credit: ""
+    download: true
 
   - id: "iris-sibirica"
     src: figures/04635701-bw.jpg
@@ -40,6 +45,7 @@ figure_list:
     iiif: "https://data.getty.edu/museum/api/iiif/300784/info.json"
     caption: "Iris Sibirica, Anna Atkins & Anne Dixon, 1854. J. Paul Getty Museum."
     credit: "External IIIF manifest from getty.edu"
+    download: true
 
   - id: "bad-flower"
     src: figures/bad-flower.jpg
