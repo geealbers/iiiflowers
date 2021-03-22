@@ -26,6 +26,4 @@ image: figures/00094701-sm.jpg
 
 - In [`themes/default/source/js/deepzoom.js`](https://github.com/thegetty/quire/blob/main/themes/default/source/js/deepzoom.js) the max zoom level (lines 68 and 83) is set at 4 which was really limiting. I changed it to 10 as a test and I could zoom fully in on all the images, but actually too far in. [See the *Irises* catalouge entry as a good example.](/catalogue/1/) Is the `imageslice` command slicing to a consistent number of levels? Or is it based on the size of the image being sliced? Can we somehow read how many layers are available and set the zoom level to that? And whatever the solution, how will it work with IIIF images being called from external pre-existing sources?
 
-- In the [figure shortcodes](/intro/), IIIF is not being delployed at all. The figure modal zoom containters are only displaying the static `src` JPGs defined for each image in `figures.yml`.
-
-- And what about those static JPGs? Should Quire users continue including them to use for things like the [contents image grids](/catalogue/), the PDF and e-book outputs, and for images with `download: true`? Or, is it possible to employ IIIF for these things too?
+- What about the static JPGs? Should Quire users continue including them to use for things like the [contents image grids](/catalogue/), the PDF and e-book outputs, and for images with `download: true`? Or, is it possible to employ IIIF for these things too?
