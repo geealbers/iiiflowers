@@ -20,7 +20,7 @@ image: figures/00094701-sm.jpg
 
 - Should we consider changing the command to `quire iiif`?
 
-- The catalogue entry viewer won't display IIIF images unless there's another non-IIIF image included in the carousel. [DEV-7105](https://jira.getty.edu/browse/DEV-7105)
+- The catalogue entry viewer won't display IIIF images unless there's another non-IIIF image included in the carousel. See Adolphe Braun’s [[Flowers]](/catalogue/3/) for an example. [DEV-7105](https://jira.getty.edu/browse/DEV-7105)
 
 - (As an aside, let’s look at turning off mouseover/touch zoom behavior in the catalogue entry viewer. It’s problematic for users when I think the +/- controls suffice.)
 

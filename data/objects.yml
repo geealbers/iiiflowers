@@ -41,7 +41,6 @@ object_list:
     link: https://www.getty.edu/art/collection/objects/43944/
     figure:
       - id: "flowers"
-      - id: "bad-flower"
 
   - id: 4
     title: Flowers and Beetles
