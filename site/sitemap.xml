@@ -1,52 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/contents/</loc>
+    <loc>/contents/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/intro/</loc>
+    <loc>/intro/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/essay/</loc>
+    <loc>/catalogue/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/catalogue/</loc>
+    <loc>/catalogue/1/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/catalogue/1/</loc>
+    <loc>/catalogue/2/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/catalogue/2/</loc>
+    <loc>/catalogue/3/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/catalogue/3/</loc>
+    <loc>/catalogue/4/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/catalogue/4/</loc>
+    <loc>/catalogue/5/</loc>
   </url>
   
   <url>
-    <loc>https://gettypubs.github.io/quire-starter/bibliography/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gettypubs.github.io/quire-starter/contributors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://gettypubs.github.io/quire-starter/about/</loc>
+    <loc>/catalogue/6/</loc>
   </url>
   
 </urlset>

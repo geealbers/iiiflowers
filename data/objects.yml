@@ -4,46 +4,78 @@ object_display_order:
   - dimensions
   - medium
   - location
+
 object_list:
+
   - id: 1
-    title: Human Erosion in California / Migrant Mother
-    artist: Dorothea Lange
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 34.1 cm × 26.8 cm (13 <sup>7</sup>⁄<sub>16</sub> in × 10 <sup>9</sup>⁄<sub>16</sub> in.)
+    title: Irises
+    artist: Vincent van Gogh
+    year: 1889
+    medium: Oil on canvas
+    dimensions: 74.3 × 94.3 cm (29 1/4 × 37 1/8 in.)
     location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/125690/
+    link: https://www.getty.edu/art/collection/objects/826/
     figure:
-      - id: "mother"
-      - id: "mother-b"
-      - id: "mother-c"
+      - id: "irises"
+      - id: "bad-flower"
+
   - id: 2
-    title: Pea Pickers, Nipomo, California
-    artist: Dorothea Lange
-    year: 1936
-    medium: Gelatin silver print, with applied pigment
-    dimensions: 29.5 cm × 24.4 cm (7 <sup>11</sup>⁄<sub>16</sub> in × 9 <sup>5</sup>⁄<sub>8</sub> in.)
+    title: Vase of Flowers
+    artist: Jan van Huysum
+    year: 1722
+    medium: Oil on panel
+    dimensions: 80.3 × 61 cm (31 5/8 × 24 in.)
     location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/130784/
+    link: https://www.getty.edu/art/collection/objects/700/
     figure:
-      - id: "pickers"
+      - id: "vase-of-flowers"
+      - id: "bad-flower"
+
   - id: 3
-    title: Bud Fields and His Wife Ivy, and His Daughter Ellen, Hale County, Alabama
-    artist: Walker Evans
-    year: 1936
-    medium: Gelatin silver print
-    dimensions: 19.4 x 24.4 (7 <sup>5</sup>⁄<sub>8</sub> x 9 <sup>5</sup>⁄<sub>8</sub> in.)
+    title: [Flowers]
+    artist: Adolphe Braun
+    year: about 1868
+    medium: Albumen silver print
+    dimensions: 38.1 × 44.5 cm (15 × 17 1/2 in.)
     location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/45651/
+    link: https://www.getty.edu/art/collection/objects/43944/
     figure:
-      - id: "duo"
+      - id: "flowers"
+      - id: "bad-flower"
+
   - id: 4
-    title: Burroughs Family, Hale County, Alabama
-    artist: Walker Evans
-    year: 1935
-    medium: Gelatin silver print
-    dimensions: 19.2 x 24.1 (7 <sup>9</sup>⁄<sub>16</sub> x 9 <sup>1</sup>⁄<sub>2</sub> in.)
+    title: Flowers and Beetles
+    artist: Hans Hoffmann
+    year: 1582
+    medium: Gouache with white chalk over black chalk on vellum
+    dimensions: 32.1 × 38.7 cm (12 5/8 × 15 1/4 in.)
     location: J. Paul Getty Museum
-    link: https://www.getty.edu/art/collection/objects/34753/
+    link: https://www.getty.edu/art/collection/objects/224/
     figure:
-      - id: "family"
+      - id: "flowers-and-beetles"
+      - id: "bad-flower"
+
+  - id: 5
+    title: [Still life of flowers and ferns]
+    artist: Lumière Brothers
+    year: about 1898
+    medium: All-Chroma autochrome
+    dimensions: 7 × 6.7 cm (2 3/4 × 2 5/8 in.)
+    location: J. Paul Getty Museum
+    link: https://www.getty.edu/art/collection/objects/39840/
+    figure:
+      - id: "still-life"
+      - id: "bad-flower"
+
+  - id: 6
+    title: Iris Sibirica
+    artist: Anna Atkins and Anne Dixon
+    year: 1854
+    medium: Cyanotype
+    dimensions: 25.4 × 19.8 cm (10 × 7 13/16 in.)
+    location: J. Paul Getty Museum
+    link: https://www.getty.edu/art/collection/objects/39851/
+    figure:
+      - id: "iris-sibirica"
+      - id: "bad-flower"
+

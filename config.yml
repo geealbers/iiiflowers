@@ -44,7 +44,7 @@ params:
   menuType: full
   prevPageButtonText: "Back"
   nextPageButtonText: "Next"
-  entryPageSideBySideLayout: false
+  entryPageSideBySideLayout: true
   entryPageObjectLinkText: "View in Collection"
   figureLabelLocation: on-top # below | on-top
   figureModal: true

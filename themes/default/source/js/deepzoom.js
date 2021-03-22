@@ -65,7 +65,7 @@ class DeepZoom {
       let zoom = {
         min: 0.5,
         default: 0,
-        max: 4
+        max: 10
       };
       this.map = this.createMap(zoom);
       if ($(`#${this.el}`).data("catalogue-entry") === undefined) {
@@ -80,7 +80,7 @@ class DeepZoom {
       let zoom = {
         min: 0.5,
         default: 0,
-        max: 4
+        max: 10
       };
       this.map = this.createMap(zoom);
       if ($(`#${this.el}`).data("catalogue-entry") === undefined) {
