@@ -1,11 +1,27 @@
+# Image tiling/zoom depth
+# is based on the dimensions of the original image
+#
+# | Length of Longest Side in Pixels | Levels of Zoom |
+# | -------------------------------- | -------------- |
+# | > 16384                          | 7              |
+# | > 8192                           | 6              |
+# | > 4096                           | 5              |
+# | > 2048                           | 4              |
+# | > 1024                           | 3              |
+# | > 512                            | 2              |
+# | > 256                            | 1              |
+
 figure_list:
   - id: "irises"
     src: figures/00094701-bw.jpg
     media_type: iiif
     iiif: "/img/iiif/processed/00094701/info.json"
+    zoom_level: 6
     caption: "*Irises*, Vincent van Gogh, 1889. J. Paul Getty Museum."
     credit: ""
     download: true
+    # orignal_file_dimensions: 9073 × 7134
+    # processed_tile_levels: 6
 
   - id: "vase-of-flowers"
     src: figures/00081701-bw.jpg
@@ -14,6 +30,8 @@ figure_list:
     caption: "*Vase of Flowers*, Jan van Huysum, 1722. J. Paul Getty Museum."
     credit: ""
     download: true
+    # orignal_file_dimensions: 6920 × 9210
+    # processed_tile_levels: 6
 
   - id: "flowers"
     src: figures/05045001-bw.jpg
@@ -22,6 +40,8 @@ figure_list:
     caption: "[Flowers], Adolphe Braun, about 1868. J. Paul Getty Museum."
     credit: ""
     download: true
+    # orignal_file_dimensions: 4689 × 3987
+    # processed_tile_levels: 5
 
   - id: "flowers-and-beetles"
     src: figures/00022601-bw.jpg
@@ -30,6 +50,8 @@ figure_list:
     caption: "*Flowers and Beetles*, Hans Hoffmann, 1582. J. Paul Getty Museum."
     credit: ""
     download: true
+    # orignal_file_dimensions: 4111 × 3400
+    # processed_tile_levels: 5
 
   - id: "still-life"
     src: figures/04634601-bw.jpg
@@ -38,6 +60,8 @@ figure_list:
     caption: "[Still life of flowers and ferns], Lumière Brothers, about 1898. J. Paul Getty Museum."
     credit: ""
     download: true
+    # orignal_file_dimensions: 5480 × 2548
+    # processed_tile_levels: 5
 
   - id: "iris-sibirica"
     src: figures/04635701-bw.jpg

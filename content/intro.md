@@ -6,6 +6,16 @@ weight: 3
 
 To better see where IIIF is being employed by Quire versus where the static JPG is being used, IIIF image tiles are in color, the static JPG source images are in black and white.
 
+| Pixel Length of Longest Side of Original Image | Levels of Zoom Created |
+| ---------------------- | -------------- |
+| > 16384                | 7              |
+| > 8192                 | 6              |
+| > 4096                 | 5              |
+| > 2048                 | 4              |
+| > 1024                 | 3              |
+| > 512                  | 2              |
+| > 256                  | 1              |
+
 Using a IIIF image in the **q-figure-zoom** shortcode:
 
 {{< q-figure-zoom id="irises" >}}
