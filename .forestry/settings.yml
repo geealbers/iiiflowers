@@ -9,19 +9,11 @@ sections:
   label: Data
   create: all
   match: "**/*"
-- type: document
-  path: data/figures.yml
-  label: Figure Info
-- type: directory
-  path: content/catalogue
-  label: Catalogue
-  create: all
-  match: "**/*"
 - type: directory
   path: content
-  label: Other Pages
+  label: Content
   create: all
-  match: "*"
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
